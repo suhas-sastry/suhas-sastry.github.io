@@ -79,6 +79,13 @@ img{
     margin-left: 10%;
     margin-right: 10%;
 }
+body .container .image img {
+    width: 400px;
+    height: auto;
+}
+.body p{
+    margin-bottom: 50px;
+}
 .body .entry{
     margin-bottom: 3%;
     display: grid;
@@ -86,11 +93,18 @@ img{
     grid-template-columns: 1fr 1fr;
     column-gap: 40px;
 }
+.body .contact {
+    font-size: 28px;
+}
 .body .entry .text{
-    margin-top: -150px;
+    margin-top: -50px;
 }
 .body .entry .image img{
     height: 400px;
+    width: auto;
+}
+.body .entry .image #big{
+    height: 500px;
     width: auto;
 }
 .body .entry .image ul {
@@ -113,7 +127,7 @@ img{
     text-align: left;
 }
 .body h2{
-    font-size: 24px;
+    font-size: 22.5px;
     margin-top: 10px;
     font-weight: normal;
     text-align: left;
