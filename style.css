@@ -206,6 +206,22 @@ body .container .image img {
         }
     }
 }
+.body .entry .indeximage img{
+    height: 500px;
+    width: auto;
+    @media(max-width: 1240px) {
+        margin-top: 2vh;
+        @media(max-width: 900px) {
+            margin-top: 3vh;
+            height: 400px;
+            width: auto;
+            @media(max-width: 450px) {
+                height: 250px;
+                width: auto;
+            }
+        }
+    }
+}
 .body .entry .image #big{
     height: 500px;
     width: auto;
